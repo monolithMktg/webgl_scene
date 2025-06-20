@@ -62,7 +62,7 @@ window.addEventListener('load', () => {
       
       this.renderer = new Renderer({
         antialias: true,
-        dpr: Math.min( 1.5, window.devicePixelRatio )
+        alpha: true,
       });
   
       this.gl = this.renderer.gl;
